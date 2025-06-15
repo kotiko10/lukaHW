@@ -1,6 +1,5 @@
 package com.example.service;
 
-import com.example.dao.JdbcUserDao;
 import com.example.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

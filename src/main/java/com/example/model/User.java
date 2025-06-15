@@ -50,7 +50,8 @@ public class User {
     @Past(message = "Birthday must be in the past")
     @Column(name = "birthday")
     private LocalDate birthday;
-    @ManyToOne(fetch = FetchType.LAZY)
+
+    @ManyToOne(fetch = FetchType.EAGER) // gadaxede defaultebs
     @JoinColumn(name = "role_id", nullable = false)
     private Role role;
 
