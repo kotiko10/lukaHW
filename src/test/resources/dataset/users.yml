@@ -1,0 +1,17 @@
+PUBLIC.USERS:
+  - id: 1
+    login: "johndoe"
+    password: "hashedpassword123"
+    email: "john@example.com"
+    first_name: "John"
+    last_name: "Doe"
+    birthday: "1990-05-15"
+    role_id: 1
+  - id: 2
+    login: "janesmith"
+    password: "hashedpassword456"
+    email: "jane@example.com"
+    first_name: "Jane"
+    last_name: "Smith"
+    birthday: "1988-12-03"
+    role_id: 2

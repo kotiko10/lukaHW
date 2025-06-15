@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+.admin-header {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+.user-table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.btn-link {
+    text-decoration: none;
+    padding: 0;
+    color: #007bff;
+}
+.btn-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+.add-user-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.add-user-link:hover {
+    text-decoration: underline;
+}

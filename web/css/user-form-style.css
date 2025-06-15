@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f9fa;
+}
+.admin-header {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #333;
+}
+.form-label {
+    font-weight: 500;
+    color: #555;
+}
+.required {
+    color: #dc3545;
+}
+.form-note {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 5px;
+}
+.btn-group-custom {
+    gap: 10px;
+}

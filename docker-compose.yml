@@ -1,0 +1,21 @@
+services:
+  user-management-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: luka-tomcat
+
+    environment:
+      - CATALINA_OPTS=-Xmx512m -Xms256m
+    volumes:
+      - ./logs:/usr/local/tomcat/logs
+      - ./data:/usr/local/tomcat/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget --quiet --tries=1 --spider http://localhost:8080/ || exit 1"]
+      interval: 30s
+      timeout: 15s
+      retries: 5
+      start_period: 60s

@@ -1,0 +1,7 @@
+PUBLIC.ROLES:
+  - id: 1
+    name: "ADMIN"
+  - id: 2
+    name: "USER"
+  - id: 3
+    name : "MODERATOR"
